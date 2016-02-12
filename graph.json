@@ -40,7 +40,24 @@
       "name":"Awakening Sovereignty Asset Token",
       "x":750,
       "y":724
+    },
+
+    {
+      "name":"Bali Light Temple",
+      "x":544,
+      "y":  75
+    },
+    {
+      "name":"Goddess Temple Ashland",
+      "x":478,
+      "y":50
+    },
+    {
+      "name":"Palo Alto Light Temple",
+      "x":655,
+      "y":24
     }
+
 
   ],
   "links":[
@@ -67,8 +84,19 @@
     {
       "source":7,
       "target":4
+    },
+    {
+      "source":8,
+      "target":9
+    },
+    {
+      "source":9,
+      "target":10
+    },
+    {
+      "source":10,
+      "target":11
     }
-
 
   ]
 }
