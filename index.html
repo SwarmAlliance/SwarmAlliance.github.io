@@ -72,6 +72,14 @@ d3.json("graph.json", function(error, json) {
 
 // restart();
 
+
+var nodes = force.nodes(),
+    links = force.links(),
+    node = svg.selectAll(".node"),
+    link = svg.selectAll(".link");
+
+
+
 var cursor = svg.append("circle")
     .attr("r", 30)
     .attr("transform", "translate(-100,-100)")
