@@ -1,14 +1,17 @@
 {
   "nodes":[
     {
+      "name":"BitNation Core",
       "x":444,
       "y":275
     },
     {
+      "name":"BitNation Basic Income",
       "x":378,
       "y":324
     },
     {
+      "name":"BitNation Arbitration",
       "x":555,
       "y":324
     }
