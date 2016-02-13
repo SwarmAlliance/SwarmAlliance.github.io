@@ -644,6 +644,13 @@ function restart() {
   force.start();
 }
 
+function createDAO() {
+
+  node = {x: 101, y: 101},
+  n = nodes.push(node);
+
+}
+
 
 </script>
 
@@ -659,7 +666,7 @@ function restart() {
       <span class="bar"></span>
       <label>Nation name</label>
     </div>
-    <button id="buttonlogintoregister" type="submit">Create</button>
+    <button id="buttonlogintoregister" type="submit" onClick="createDAO();">Create</button>
   </form>
   <div id="footer-box"><p class="footer-text">Inspect the code<span class="sign-up"> Inspect</span></p></div>
 </div>
