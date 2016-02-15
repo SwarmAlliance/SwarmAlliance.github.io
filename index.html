@@ -433,8 +433,9 @@ a:link, a:visited{
 }
 
 </style>
-<body style="background-image: url('img/star-space-tile.jpg')">
-
+<!-- <body style="background-image: url('img/star-space-tile.jpg')"> -->
+<body>
+  
   <div style="position: relative;">
    <div id="layer2" width="800" height="470"
      style="position: absolute; left: 0; top: 0; z-index: 0;"></div>
@@ -645,6 +646,8 @@ function restart() {
 }
 
 function createDAO() {
+
+  alert('we are about to create a DAO!');
 
   node = {x: 101, y: 101},
   n = nodes.push(node);
